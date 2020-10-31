@@ -4,7 +4,7 @@ async function myFunction() {
     // alert("Esse site é um experimento que usa Inteligência Artificial para fins educacionais e criativos.\nSeu novo Hit está pronto em alguns segundos")
     const content = await fetchLyric()
     // alert("Esse site é um experimento que usa Inteligência Artificial para fins educacionais e criativos")
-    const resp = content.content.replace(/(\r\n|\n|\r)/gm, "<br/>")
+    const resp = content.content.replace(/(\r\n|\n|\r)/gm, "<br />")
     console.log(resp)
     // <section id="one" class="wrapper style1 special" style="display:none;">
     document.getElementById("one").style.display = '';
