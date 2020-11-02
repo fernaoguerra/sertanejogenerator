@@ -1807,7 +1807,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		header br {
-			display: none;
+			display: inline;
 		}
 
 	}
@@ -2761,7 +2761,7 @@ input, select, textarea {
 			}
 
 				.spotlight br {
-					display: none;
+					display: inline;
 				}
 
 				.spotlight .image {
@@ -3717,7 +3717,7 @@ input, select, textarea {
 				}
 
 				#banner br {
-					display: none;
+					display: inline;
 				}
 
 				#banner .more {
