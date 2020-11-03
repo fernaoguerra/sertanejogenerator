@@ -1,6 +1,6 @@
 console.log("carregou")
 async function myFunction() {
-    document.getElementById("content_header").innerHTML = "Seu hit sertanejo estará\npronto em alguns segundos...";
+    document.getElementById("content_header").innerHTML = "Seu hit sertanejo estará pronto em alguns segundos...<br/> Se não funcionar em 30 segundos, aperta o botão de novo";
     // alert("Esse site é um experimento que usa Inteligência Artificial para fins educacionais e criativos.\nSeu novo Hit está pronto em alguns segundos")
     const content = await fetchLyric()
     // alert("Esse site é um experimento que usa Inteligência Artificial para fins educacionais e criativos")
