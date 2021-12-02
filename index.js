@@ -18,7 +18,8 @@ async function myFunction() {
 
 async function fetchLyric() {
     console.log("fetcheando")
-    const response = await fetch('https://sertanejogenerator-294820.rj.r.appspot.com/');
+    const response = await fetch('https://sertanejogenerator.rj.r.appspot.com/');
+    // const response = await fetch('https://sertanejogenerator-294820.rj.r.appspot.com/');
     // waits until the request completes...
     // console.log(response.json());
     return response.json()
